@@ -44,7 +44,7 @@ Looking at the first 6 rows of the dataset:
 head(data)
 ```
 
-Converting the "date" variable to a Date class and the "interval" variable to a factor
+Converting the “date” variable to a Date class and the “interval” variable to a factor
 ```{r}
 data$date <- as.Date(data$date, format = "%Y-%m-%d")
 data$interval <- factor(data$interval)
@@ -110,17 +110,17 @@ intervale_max_steps
 
 ##The total number of missing values in the dataset (for each variable)
 
-For the "steps" variable:
+For the “steps” variable:
 ```{r}
 sum(is.na(as.character(data$steps)))
 ```
 
-For the "date" variable:
+For the “date” variable:
 ```{r}
 sum(is.na(as.character(data$date)))
 ```
 
-For the "interval" variable:
+For the “interval” variable:
 ```{r}
 sum(is.na(as.character(data$interval)))
 ```
