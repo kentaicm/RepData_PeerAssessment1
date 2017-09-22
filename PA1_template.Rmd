@@ -2,7 +2,9 @@
 title: 'Reproducible Research: Reproducible Data Peer Assessment 1'
 author: "Tai Chee Ming"
 date: "18 September 2017"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache=TRUE)
