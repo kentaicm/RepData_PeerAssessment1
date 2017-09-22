@@ -14,7 +14,7 @@ knitr::opts_chunk$set(cache = TRUE, echo = TRUE)
 
 Set up working directory
 ```{r, echo=TRUE}
-setwd("D:/Downloads/Coursera/Reproducible Research/Course Project 1")
+setwd("D:/Downloads/Coursera/Reproducible Research/Course Project 1A")
 ```
 
 URL to download the data zip file
